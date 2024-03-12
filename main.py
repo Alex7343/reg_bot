@@ -2,7 +2,7 @@ import telebot
 import smtp
 import asyncio
 
-bot = telebot.TeleBot("6861791009:AAEeKrURb7wLi-ctJBlgwq2Yga3TvZRF_q0")
+bot = telebot.TeleBot("your-key")
 
 @bot.message_handler(commands=["start"])
 def cmd_start(message):
